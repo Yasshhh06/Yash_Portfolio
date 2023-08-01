@@ -1,0 +1,244 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x:hidden;
+}
+a{
+    text-decoration: none;
+    color:rgb(30, 30, 30);
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    color: rgb(133, 77, 212);
+}
+.dropdown-menu span{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size:medium;
+    font-weight: 600;
+}
+.dropdown-item:hover{
+    background-color:rgba(179, 214, 244, 0.833);
+}
+
+.latest-blog .row{
+    margin: 20px 50px;
+}
+.service{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.about-page{
+    /* background-image: url(about1.jpeg); */
+    background-image: url('../Image/about1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.lead{
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+}
+.social-media{
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    color: white;
+    float: right;
+}
+.blog-page{
+    /* background-image: url(s6.jpeg); */
+    background-image: url('../Image/s6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blogs-img{
+    border-radius: 5%;
+}
+.card{
+    border: 0;
+}
+.blogss .row{
+    margin: 0 50px;
+    padding-top: 20px ;
+    margin-bottom: 50px;
+}
+
+.destn-page{
+    /* background-image: url(s2.jpeg); */
+    background-image: url('../Image/s2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.destn-page font{
+    font-size: 500%; 
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.lst{
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 5px;
+}
+.destn{
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dmain{
+    /* background-image: linear-gradient(to bottom right,#8360c3,#2ebf91); */
+    background-image: linear-gradient(to bottom right,#009FFF,#ec2F4B);
+}
+.dmain button{
+    background: transparent;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.itn-page{
+    background-image: url('../Image/s5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.itn{
+    padding: 20px 40px;
+    margin: 0 50px;
+}
+.itn img{
+    border-radius: 15px;
+}
+.itn a{
+    transition: 0.2s ease-in-out;
+}
+.itn a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* -----------contact modal---------- */
+.modal-content{
+    /* background: linear-gradient(to right bottom, #12c2e9, #c471ed, #f64f59); */
+    /* background-image: url('../Image/wall1.jpg'); */
+    background: linear-gradient(to right bottom, #4ca1af, #c4e0e5);
+    font-size: large;
+    font-weight: 500;
+}
+.modal-body{
+    /* color: #ffffff; */
+    font-weight: 600;
+}
+.modal-body input, .modal-body textarea{
+    background-color: rgba(255, 255, 255, 0.427);
+    font-weight: 600;
+}
+
+/* --------------overall blogs banner section--------------- */
+.blog-banner{
+    width: 100%;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding-top: 15%;
+}
+.blog-banner font{
+    font-size: 400%; 
+    font-weight: 700;
+    background-color: rgba(68, 48, 48, 0.385); 
+    border-radius: 20px; 
+    color: rgb(251, 251, 251);
+}
+/* -------------niagara------------ */
+.niagarablog{
+    background-image: url('../Image/bn.jpeg');
+}
+.yo{
+    background-color: aqua;
+}
+.niagarablog i{
+    font-size: 40px;
+}
+.niagara-cards{
+    padding: 50px ;
+}
+
+/* ------------paris------------- */
+.paris-blog{
+    background-image: url('../Image/bp.jpeg');
+}
+/* ------------hawai------------- */
+.hawai-blog{
+    background-image: url('../Image/bh.jpeg');
+}
+/* ------------atlantic------------- */
+.atlantic-blog{
+    background-image: url('../Image/ba.jpeg');
+}
+/* ------------las-vegas------------- */
+.lasvegas-blog{
+    background-image: url('../Image/blv.jpeg');
+}
+/* ------------rishikesh------------- */
+.rishikesh-blog{
+    background-image: url('../Image/br.jpeg');
+}
+
+/* -------------media query--------- */
+@media only screen and (max-width: 430px){
+    .latest-blog .row{
+        margin: auto 10px;
+    }   
+    .intro-text{
+        font-size: xx-large;
+    }
+    .lead{
+        font-size: large;
+    }
+    .icons{
+        float: inline-end;
+    }
+    footer{
+        font-size: medium;
+    }
+    .blogss .row{
+        margin: 0 5px;
+        padding-top: 20px ;
+    }
+    .blogss .col{
+        margin-bottom: 50px;
+    }
+    .destn-page font{
+        font-size: 300%;
+    }
+    .itn{
+        padding:0;
+        margin: 15px;
+    }
+    .blog-banner{
+        padding-top: 50%;
+    }
+    .blog-banner font{
+        font-size: 300%; 
+        font-weight: 700; 
+        background-color: rgba(0, 0, 0, 0.385); 
+        border-radius: 0;
+    }
+    .niagara-cards{
+        padding: 20px;
+        margin-left: -25px;
+    }
+    .niagara-cards font{
+        font-size: 250%;
+    }
+}

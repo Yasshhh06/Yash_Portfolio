@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Asset/CSS/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--This is the section of navigation bar   -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(30, 30, 30, 0.981);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JetSetExplorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="itenaries.html">Itenaries</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Sites !!
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100011865819042"><img class="social-media" src="Asset/Image/fb.png" alt=""><span>FaceBook</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/umeshx.07/"><img class="social-media" src="Asset/Image/ig.png" alt=""><span>Instagram</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Umesh_Phulare"><img class="social-media" src="Asset/Image/twt.png" alt=""><span>Twitter</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/umesh-phulare-05ab5b267"><img class="social-media" src="Asset/Image/in.png" alt=""><span>LinkedIN</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index.html"><img class="social-media" src="Asset/Image/port.png" alt=""><span>Portfolio</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- contact us pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch With Me !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input name="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John D'souza" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input name="Email-id" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Mobile Number</label>
+                            <input name="Phno" type="number" class="form-control" id="exampleFormControlInput1" placeholder="0987654321" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the section of banner -->
+    <div class="destn-page">
+        <br><br><br><br><br><br><br>
+        <center><font><i class='bx bxs-map-alt'></i> DESTINATIONS</font></center>
+        <br><br><br><br><br><br><br><br>
+    </div>
+
+    <!-- list section -->
+    <div class=" my-4 justify-content-center align-items-stretch mx-5" align="center">
+        <center><font size="7" style="font-weight: 700;">Where Do You Want To Go ?</font></center>
+        <div class="dmain list-group my-3 " style="width: 15rem;" align="center">
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#asia'">Asia</button>
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#na'">Caribbean</button>
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#africa'">Africa</button>
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#eur'">Europe</button>
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#ocn'">Ocenia</button>
+            <button type="button" class="list-group-item list-group-item-action lst" onclick="location.href='#polar'">Polar Regions</button>
+          </div>
+    </div>
+
+    <center>
+        <hr size="8" height="50px" width="90%" style="border-radius: 30px;" color="black">
+    </center>
+
+    <!-- all destinations -->
+    <section>
+        <div class="container my-5 about-me" id="asia">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/asia.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5"><br>
+                    <font size="8" style="font-weight: 700;">ASIA</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/central-asia/maldives-travel-tips/">Maldives</a></li>
+                            <li><a href="https://theplanetd.com/destinations/central-asia/china-travel-tips/">China</a></li>
+                            <li><a href="https://theplanetd.com/destinations/central-asia/india-travel-tips/">India</a></li>
+                            <li><a href="https://theplanetd.com/destinations/central-asia/russia-travel-tips/">Russia</a></li>
+                            <li><a href="https://theplanetd.com/destinations/south-east-asia/singapore-travel-tips/">Singapore</a></li>
+                            <li><a href="https://theplanetd.com/destinations/central-asia/sri-lanka-travel-tips/">Sri Lanka</a></li>
+                        </ul>
+                        <br>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container my-5 about-me" id="na">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/caribbean.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5">
+                    <font size="8" style="font-weight: 700;">CARIBBEAN</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/caribbean/bahamas-travel-tips/">Bahamas</a></li>
+                            <li><a href="https://theplanetd.com/destinations/caribbean/jamaica-travel-tips/">Jamaica</a></li>
+                            <li><a href="https://theplanetd.com/destinations/caribbean/puerto-rico-travel-tips/">Puerto Rico</a></li>
+                            <li><a href="https://theplanetd.com/destinations/caribbean/cuba-travel-tips/">Cuba</a></li>
+                            <li><a href="https://theplanetd.com/destinations/caribbean/cayman-islands-travel-tips/">Cayman Island</a></li>
+                            <li><a href="https://theplanetd.com/destinations/caribbean/grenada-travel-tips/">Grenada</a></li>
+                        </ul>
+                        
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container my-5 about-me" id="africa">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/africa.jpeg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5">
+                    <font size="8" style="font-weight: 700;">AFRICA</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/africa/egypt-travel-tips/">Egypt</a></li>
+                            <li><a href="https://theplanetd.com/destinations/africa/kenya-travel-tips/">Kenya</a></li>
+                            <li><a href="https://theplanetd.com/destinations/africa/south-africa-travel-tips/">South Africa</a></li>
+                            <li><a href="https://theplanetd.com/destinations/africa/tanzania-travel-tips/">Tanzania</a></li>
+                            <li><a href="https://theplanetd.com/destinations/africa/morocco-travel-tips/">Morocco</a></li>
+                            <li><a href="https://theplanetd.com/destinations/africa/zambia-travel-tips/">Zambia</a></li>
+                        </ul>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container my-5 about-me" id="eur">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/europe.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5">
+                    <font size="8" style="font-weight: 700;">EUROPE</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/europe/france-travel-tips/">France</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/italy-travel-tips/">Italy</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/germany-travel-tips/">Germany</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/romania-travel-tips/">Romania</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/england-travel-tips/">England</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/switzerland-travel-tips/">Switzerland</a></li>
+                        </ul>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container my-5 about-me" id="ocn">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/oceania.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5">
+                    <font size="8" style="font-weight: 700;">OCENIA</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/oceania/australia-travel-tips/">Australia</a></li>
+                            <li><a href="https://theplanetd.com/destinations/oceania/fiji-travel-tips/">Fiji</a></li>
+                            <li><a href="https://theplanetd.com/destinations/oceania/new-zealand-travel-tips/">New Zealand</a></li>
+                        </ul>
+                        <br>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container my-5 about-me" id="polar">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                 <div class="col-md-5">
+                    <img src="Asset/Image/polar.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7 px-5">
+                    <font size="8" style="font-weight: 700;">POLAR EGIONS</font>
+                    <p class="lead">
+                        <ul class="destn">
+                            <li><a href="https://theplanetd.com/destinations/antarctica/antarctica-travel-tips/">Antartica</a></li>
+                            <li><a href="https://theplanetd.com/destinations/europe/greenland-travel-tips/">Greeland</a></li>
+                        </ul>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- this is the footer section -->
+    <hr class="featurette-divider">
+    <footer class="container">
+        <center><p>Copyright <i class='bx bx-copyright'></i> 2023-2024 JetSetExplorer,Inc.</p></center>
+    </footer>
+
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Asset/CSS/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="background-color:rgb(255, 248, 240) ;">
+
+    <!--This is the section of navigation bar   -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(30, 30, 30, 0.981);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JetSetExplorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="itenaries.html">Itenaries</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Sites !!
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100011865819042"><img class="social-media" src="Asset/Image/fb.png" alt=""><span>FaceBook</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/umeshx.07/"><img class="social-media" src="Asset/Image/ig.png" alt=""><span>Instagram</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Umesh_Phulare"><img class="social-media" src="Asset/Image/twt.png" alt=""><span>Twitter</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/umesh-phulare-05ab5b267"><img class="social-media" src="Asset/Image/in.png" alt=""><span>LinkedIN</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index.html"><img class="social-media" src="Asset/Image/port.png" alt=""><span>Portfolio</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- contact us pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch With Me !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input name="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John D'souza" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input name="Email-id" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Mobile Number</label>
+                            <input name="Phno" type="number" class="form-control" id="exampleFormControlInput1" placeholder="0987654321" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the section of banner -->
+    <div class="blog-page">
+        <br><br><br><br><br><br><br>
+        <center><font style="font-size: 500%; font-weight: 700; color: rgb(255, 255, 255);"><i class='bx bxs-plane' undefined ></i> BLOGS</font></center>
+        <br><br><br><br><br><br><br><br>
+    </div>
+
+    <!-- this is the blogs section -->
+    <section class="blogss">
+        <div class="container " id="custom-cards" >
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-5 ">
+                <div class="col">
+                    <a href="niagara.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/bn.jpeg'); ">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">6 Best Views Of Niagara Falls In 2023</h5>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col">
+                    <a href="paris.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/bp.jpeg');">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">7 Best Day Trips From Paris In 2023</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="custom-cards" >
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-5 ">
+                <div class="col">
+                    <a href="hawai.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/bh.jpeg')">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">9 Best Things To Do In Honolulu Hawaii In 2023</h5>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="col">
+                    <a href="atlantic.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/ba.jpeg'); ">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">8 Best Things To Do In Atlantic City In 2023</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="custom-cards" >
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-5 ">
+                <div class="col">
+                    <a href="lasvegas.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/blv.jpeg'); ">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">8 Best Day Trips From Las Vegas In 2023</h5>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="col">
+                    <a href="rishikesh.html">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg service" style="background-image: url('Asset/Image/br.jpeg');">
+                            <div class="d-flex my-5 flex-column h-100 p-5 pb-3 text-white text-shadow-1" align="center">
+                            </div>
+                        </div>
+                        <div class="card-body" align="center">
+                            <h5 class="card-title">The 5 Best Things To Do In Rishikesh</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- this is the footer section -->
+    <hr class="featurette-divider">
+    <footer class="container">
+        <center><p>Copyright <i class='bx bx-copyright'></i> 2023-2024 JetSetExplorer,Inc.</p></center>
+    </footer>
+
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

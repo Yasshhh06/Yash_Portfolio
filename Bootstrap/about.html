@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Asset/CSS/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--This is the section of navigation bar   -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(30, 30, 30, 0.981);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JetSetExplorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="itenaries.html">Itenaries</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Sites !!
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100011865819042"><img class="social-media" src="Asset/Image/fb.png" alt=""><span>FaceBook</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/umeshx.07/"><img class="social-media" src="Asset/Image/ig.png" alt=""><span>Instagram</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Umesh_Phulare"><img class="social-media" src="Asset/Image/twt.png" alt=""><span>Twitter</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/umesh-phulare-05ab5b267"><img class="social-media" src="Asset/Image/in.png" alt=""><span>LinkedIN</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index.html"><img class="social-media" src="Asset/Image/port.png" alt=""><span>Portfolio</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- contact us pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch With Me !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input name="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John D'souza" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input name="Email-id" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Mobile Number</label>
+                            <input name="Phno" type="number" class="form-control" id="exampleFormControlInput1" placeholder="0987654321" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- this is the section of banner -->
+    <div class="about-page">
+        <br><br><br><br><br><br><br>
+        <center><font style="font-size: 500%; font-weight: 700; color: rgb(255, 255, 255);">ABOUT ME</font></center>
+        <br><br><br><br><br><br><br><br>
+    </div>
+
+    <!-- this is all cards -->
+    <div class="main">
+        <div class="container my-5 about-me">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <img src="Asset/Image/me1.jpeg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7">
+                    <font size="8" style="font-weight: 700;">So Who Exactly Am I ?</font>
+                    <p class="lead"><br>
+                        My name's Anonymous and  I’m a photographer, traveller and nature lover originally from Imagination – although these days I’m usually found somewhere much more warm and tropical! I live by the motto “Adventure is for Everyone” because I believe that you don’t have to be an uber-athlete, adrenaline junkie, or a part of the ultra-rich to be an adventurer! All you need is the desire to achieve something more!<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 about-me">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-7">
+                    <font size="8" style="font-weight: 700;">Where Have I Been?</font>
+                    <p class="lead"><br>
+                        I’ve been on the road since 2009, when I spent a year in Australia living in a van.Since then I’ve been bouncing all over the globe exploring some of the amazing places and experiences it has to offer, as well as meeting some incredible people along the way.You’ll find everything on this site from hiking the Inca Trail and wandering the streets of Paris to road tripping the East Coast of Australia and going on safari in South Africa.<br><br>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/about.jpeg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 about-me">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <img src="Asset/Image/me2.jpeg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+                <div class="col-md-7">
+                    <font size="8" style="font-weight: 700;">What Do I Write About?</font>
+                    <p class="lead"><br>
+                        To be honest pretty much anything travel related! Whether it’s 10 photos to prove that Siargao is an island paradise or my mini guide to travelling Australia you’ll find a mix of reviews, advice and stories from my time on the road. I’ve been keeping tabs on all the stats for my travels too and each month you’ll find a handy summary of where I’ve been, how far I’ve travelled, – so it’s easy to catch up!<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <center>
+                <font size="5" style="font-weight: 500; font-style: italic;">"Travel Changed our lives. And we Believe that if you are open to Possibilities, Travel can change yours too...❤️"</font>
+            </center><br>
+        </div>
+    </div>
+
+    <!-- this is the footer section -->
+    <hr class="featurette-divider">
+    <footer class="container">
+        <center><p>Copyright <i class='bx bx-copyright'></i> 2023-2024 JetSetExplorer,Inc.</p></center>
+    </footer>
+    
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

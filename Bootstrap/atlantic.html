@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantic City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Asset/CSS/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="background-color:rgb(255, 248, 240) ;">
+
+    <!--This is the section of navigation bar   -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(30, 30, 30, 0.981);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JetSetExplorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="itenaries.html">Itenaries</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Sites !!
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100011865819042"><img class="social-media" src="Asset/Image/fb.png" alt=""><span>FaceBook</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/umeshx.07/"><img class="social-media" src="Asset/Image/ig.png" alt=""><span>Instagram</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Umesh_Phulare"><img class="social-media" src="Asset/Image/twt.png" alt=""><span>Twitter</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/umesh-phulare-05ab5b267"><img class="social-media" src="Asset/Image/in.png" alt=""><span>LinkedIN</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index.html"><img class="social-media" src="Asset/Image/port.png" alt=""><span>Portfolio</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- contact us pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch With Me !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input name="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John D'souza" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input name="Email-id" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Mobile Number</label>
+                            <input name="Phno" type="number" class="form-control" id="exampleFormControlInput1" placeholder="0987654321" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the section of banner -->
+    <div class="blog-banner atlantic-blog">
+        <center><font>“8 Best Things To Do In Atlantic City In 2023”</font></center>
+    </div>
+
+
+    <div class="container-fluid p-5" style="color: white; background: linear-gradient(to right bottom, #00b09b, #96c93d);">
+        <h1 class="display-5 fw-bold">Atlantic City, New Jersey~</h1>
+        <p class="col-md-8 fs-4" style="font-style: italic;">
+            Atlantic City is a sprawled resort city on the east coast of the U.S. A fantastic day trip from New York and a wonderful place to enjoy the Atlantic Ocean. Atlantic City is packed with resort activities, casinos, and watersports. It has the glitz and glam of a coastal Las Vegas – with more things to do off the strip. Walk the famous Atlantic City Boardwalk, soak up live entertainment at Borgata Hotel Casino, and embrace Atlantic City’s history with Absecon Lighthouse.
+        </p>
+        <a href="#main">
+            <button class="btn btn-outline-light btn-lg" type="button">Start Your Journey !</button>
+        </a>
+    </div>
+
+     <!-- this is all cards -->
+    <div class="niagara-cards" id="main">
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font size="8" style="font-weight: 700;">1. Atlantic City Boardwalk</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>When it comes to its boardwalk, Atlantic City really comes into its own. The 4.8-mile stretch between Jackson Avenue and Madison Avenue at the historic Gardner’s Basin. It encompasses stunning views of the Atlantic Ocean and the A.C. beaches and easy access to casinos, hotels, and attractions. The famous boardwalk is family-friendly, suitable for pushchairs, and splitting into smaller sections more suitable for children’s capabilities. It is one of the best free things to do in Atlantic City and perfect to combine with other attractions since walking the boardwalk is a popular way to get around.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl1.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">2. Ocean Casino Resort</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Visiting a casino is one of the most popular ways to spend an evening in Atlantic City. And this famous venue is an ideal candidate if you have a luxury casino environment. The five-star hotel sits on the Atlantic City Boardwalk, hosting one of the city’s largest, award-winning casinos. There are thousands of slot machines and table games. If you want to enjoy a casino regularly during your visit, you can make the most of the Ocean Casino Resort rewards card. There are even fine dining venues in the resort to enjoy after you collect your winnings – we suggest Linguini By The Sea for its ocean views and Italian cuisine.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl2.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="Asset/Image/n1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n5.jpeg" class="d-block w-100 img-fluid" alt="...">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n2.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n7.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n8.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">3. Absecon Lighthouse</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>You can’t visit Atlantic City and not visit New Jersey’s tallest lighthouse. Absecon Lighthouse is the most historical of all the Atlantic City attractions. As a national historic landmark, it’s definitely worth your time. You can climb the lighthouse right to the top for stunning views over the city and the Atlantic Ocean and learn about its history. The climb to the top is no mean feat – with 228 steps to the watch room. And as a tradition, the lighthouse is still lit every night despite being retired from duties. The adjoining museum is a lovely addition to the experience, with a gift shop for souvenir shopping. Located at 31 S Rhode Island Ave.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl3.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">4. Steel Pier Amusement Park</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Steel Pier Amusement Park is like something out of a movie. Envision gold-gilded fairground rides and a huge Ferris wheel that lights up against the sky. Steel Pier is easily amongst the best amusement parks you’ll visit, and the oceanfront locale makes it even more impressive. Visiting Steel Pier is one of the best family-friendly activities in Atlantic City. And since it’s located on the boardwalk, you can use it as the ultimate bribery for getting your kids to walk more. Tickets are relatively modest in pricing, although you can also splurge on a luxury helicopter ride for 20 minutes. So there’s room for indulgence.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl4.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">5. Hard Rock Hotel And Cafe</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>The Hard Rock Hotel and Cafe are one of the most famous brands across the world and the perfect attraction when visiting Atlantic City. Just the brand’s cafes alone attract nearly 80 million guests a year, and the rock ‘n’ roll theme really energizes its section of the Atlantic City boardwalk. Expect high energy and comforting American cuisine – with a menu full of meaty burgers and grilled dishes. The Hard Rock Hotel has a casino as well. And if you weren’t feeling like a crazy night out, walking into the doors under a colossal lit-up guitar will surely get you in the mood. The Hard Rock Hotel is fun and intense in the best way.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl5.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">6. Dolphin Watch With Atlantic City Cruises</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Going dolphin watching with Atlantic City Cruises is one of the top things to do in Atlantic City. This area is renowned for its bottle-nosed dolphins. And from May to October, you can hop on daily dolphin-watching excursions that last around an hour. Should you get lucky (and most people do), the dolphins will come to your boat to play by the hern. Investing in ethical animal encounters is essential. Seeing dolphins in the wild is the kindest way to interact with these magnificent animals.Head off for the adventure of a lifetime. See leaping, frolicking dolphins while heading into the open ocean in search of marine life. Enjoy highly-educational commentary provided by an onboard marine naturalist.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl6.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">7. Atlantic City Airshow.</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Hundreds of planes zip through the skies above the city every summer for the annual Atlantic City Airshow. Spectators can purchase tickets and numerous vantage points throughout the city – or flock to the beaches and boardwalk to watch for free. The Atlantic City Airshow is one of the largest in North America and easily one of the most fun things to do. If you are visiting around August, it’s well worth seeing if your visit coincides with this airshow. And if you love planes and paying respects to the U.S. Army, consider the Atlantic City Airshow when choosing your dates to visit the city.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl7.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">8. Central Pier Arcade.</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>The Central Pier Arcade is chaotic. Pure chaos. However, it is also all fun and games. There are pinging machines with flashing lights, and the constant clatter of penny falls, while outside, a vast outdoor go-karting track is a hit amongst adults and kids. A seaside arcade is one of the most classic things you can do on any beach getaway. And when visiting, the arcade is one of the best things to do in Atlantic City for a lowkey few hours. The arcade is family-friendly but also suited to adults just wanting to let their hair down. Located along the main boardwalk, it’s easy to just drop by on your way back to your hotel after eating at a nice restaurant.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/atl8.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="hawai.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="niagara.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="paris.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="hawai.html">3</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="lasvegas.html">5</a></li>
+            <li class="page-item"><a class="page-link" href="rishikesh.html">6</a></li>
+            <li class="page-item">
+                <a class="page-link" href="lasvegas.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- this is the footer section -->
+    <hr class="featurette-divider">
+    <footer class="container">
+        <center><p>Copyright <i class='bx bx-copyright'></i> 2023-2024 JetSetExplorer,Inc.</p></center>
+    </footer>
+
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

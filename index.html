@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Asset/CSS/style.css">
+</head>
+<body>
+    <div class="side-bar ">
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="#s1" class="active"><i class='bx bx-home-alt'></i></a>
+              <a href="#s2" class=""><i class='bx bx-file' ></i></a>
+              <a href="#s3" class=""><i class='bx bxs-book-content'></i></a>
+              <a href="#s4" class=""><i class='bx bx-code-curly'></i></a>
+              <a href="#s5" class=""><i class='bx bx-envelope'></i></a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+
+    <!-- main front section -->
+    <section id="s1">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header" onclick="closemenu()">Home</a></li>
+                        <li><a href="#about" onclick="closemenu()">About</a></li>
+                        <li><a href="#services" onclick="closemenu()">Services</a></li>
+                        <li><a href="#project" onclick="closemenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                        <i class='bx bx-message-square-x' onclick="closemenu()"></i>
+                    </ul>
+                    <i class='bx bx-menu' onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h3>Hello, Its Me</h3>
+                    <h1>YASH MOHITE</h1>
+                    <h2>I am a <font style="color: #00aeff;" class="sec-text"></font></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------about--------------- -->
+    <section id="s2">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Asset/Image/b4.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>I'm a Student currently pursuing DIPLOMA in Computer Engineering. I am enthusiastic about expanding my knowledge and skills in the field. I have a passion for technology and a strong desire to apply my theoretical understanding to practical projects.With a keen interest in software development, hardware systems, and emerging technologies, I am eager to undertake challenging projects that allow me to showcase my abilities and contribute to real-world solutions. I am committed to continuous learning and staying updated with the latest advancements in the industry. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend</span><br>Responisve Web Designing</li>
+                                <li><span>Lanuguages</span><br>HTML, CSS, JS, C, C++, Java</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>MARKETING MANAGER</span><br>SmartByte Computer Education</li>
+                                <li><span>PROJECT MANAGER</span><br>Accennovate tech solutions pvt.ltd.</li>
+                                <!-- <li><span>Activites</span><br>Technical Paper Presentation</li> -->
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>SSC from Shi-shu Vikas School Kalyan</li>
+                                <li><span>2023 - Current</span><br>Diploma in Computer Engineering - 3<sup>rd</sup> Year</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ---------------services--------------- -->
+    <section id="s3">
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-alt' ></i>
+                        <h2>Bussiness Development</h2>
+                        <p>As a Business Development professional, I am passionate about identifying and seizing new opportunities that drive growth and success for businesses. My creativity and strategic thinking flow through every aspect of the business development process, from conceptualization to execution. I thrive on crafting solid and scalable strategies that result in exceptional outcomes and superior user experiences for clients and partners.</p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <i class='bx bxs-crop' undefined ></i>
+                        <h2>Photoshop</h2>
+                        <p>As a Photoshop artist, my creativity knows no bounds as I dive into the digital realm, armed with an array of powerful tools and a vivid imagination. With each click and brushstroke, I bring visions to life, transforming ordinary images into extraordinary works of art. </p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                    <div>
+                        <i class='bx bx-terminal'></i>
+                        <h2>DB Management</h2>
+                        <p>As a database management specialist, my creativity flourishes within the realm of data organization and optimization. With a meticulous approach and a passion for problem-solving, I sculpt databases into powerful structures that drive efficient data management.</p>
+                        <!-- <a href="#">Learn More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ----------------projects--------------- -->
+    <section id="s4">
+        <div id="project">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Asset/Image/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Portfolio</h3>
+                            <p>As the creator and curator of my own portfolio, I pour my heart and soul into every pixel, every line of code, and every design choice. It is a canvas where my creativity takes flight, showcasing my unique style and artistic vision.</p>
+                            <a href="C:\Users\Admin\Desktop\Portfolio\Asset\Image\My CV.pdf"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Asset/Image/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Travel Blogging Website</h3>
+                            <p>As a travel blogger and website creator, my creativity unfolds like a journey across captivating landscapes and vibrant cultures. I transport the readers to breathtaking destinations.</p>
+                            <a href="C:\Users\Admin\Desktop\Portfolio\Asset\Image\My CV.pdf"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Asset/Image/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Swiggy Clone</h3>
+                            <p>As the creator of a Swiggy clone website, my creativity thrives in the realm of food and technology fusion. With each line of code, I bring the convenience of online food delivery to hungry customers, replicating the seamless experience </p>
+                            <a href="C:\Users\Admin\Desktop\Portfolio\Asset\Image\My CV.pdf"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn">See More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------contact us--------------- -->
+    <section id="s5">
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class='bx bx-message-alt-detail'></i>yashmohite341@gmail.com</p>
+                        <p><i class='bx bx-phone'></i>9967053816</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/yash.mohite.54390?mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://instagram.com/__.yassshh?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram'></i></a>
+                            <a href="https://twitter.com/Yasshhh06?t=dUUHKbKhPpBgCKQXQzoCkA&s=09"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/in/yash-mohite-507000215"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                        <a href="C:\Users\Admin\Desktop\Portfolio\Asset\Image\My CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <!-- <form action="https://formspree.io/f/xpzgqlok" method="POST" name="submit-to-google-sheet">
+                            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                            <input type="email" id="em" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" id="msg" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" id="butn" class=" btn2" disabled>Submit</button>
+                        </form> -->
+                        <form action="https://formspree.io/f/xpzgqlok" method="POST">
+                            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                            <input type="email" id="em" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" id="msg" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" id="butn" class=" btn2" disabled>Submit</button>
+                        </form>
+                        <span id="message-sent"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ending-text">
+            <p>Through my portfolio, I aim to demonstrate my capability, creativity, and determination to take on meaningful projects that push boundaries and make a positive impact 😁."</p>
+        </div>
+    </section>
+
+    <!-- -------------footer--------------- -->
+    <footer>
+        <center><p>Copyright<i class='bx bx-copyright'></i> 2022-2024 Portolio,Inc</p></center>
+    </footer>
+
+    <script src="Asset/JS/sidebar.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

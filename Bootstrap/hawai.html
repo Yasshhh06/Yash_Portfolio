@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Asset/CSS/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="background-color:rgb(255, 248, 240) ;">
+
+    <!--This is the section of navigation bar   -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(30, 30, 30, 0.981);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JetSetExplorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="itenaries.html">Itenaries</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Sites !!
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100011865819042"><img class="social-media" src="Asset/Image/fb.png" alt=""><span>FaceBook</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/umeshx.07/"><img class="social-media" src="Asset/Image/ig.png" alt=""><span>Instagram</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Umesh_Phulare"><img class="social-media" src="Asset/Image/twt.png" alt=""><span>Twitter</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/umesh-phulare-05ab5b267"><img class="social-media" src="Asset/Image/in.png" alt=""><span>LinkedIN</span></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index.html"><img class="social-media" src="Asset/Image/port.png" alt=""><span>Portfolio</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- contact us pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch With Me !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input name="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John D'souza" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input name="Email-id" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Mobile Number</label>
+                            <input name="Phno" type="number" class="form-control" id="exampleFormControlInput1" placeholder="0987654321" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the section of banner -->
+    <div class="blog-banner hawai-blog">
+        <center><font>“9 Best Things To Do In Honolulu Hawaii In 2023”</font></center>
+    </div>
+
+
+    <div class="container-fluid p-5" style="color: white;     background: linear-gradient(to right bottom, #ff3d0d, #04d9ff);">
+        <h1 class="display-5 fw-bold">Honolulu, Hawai~</h1>
+        <p class="col-md-8 fs-4" style="font-style: italic;">
+            When you think of Honolulu, you probably think of Koko Crater, Pearl Harbor, and Diamond Head – and maybe a few green sea turtles. Honolulu is the capital of Hawaii and is set on one of the best Hawaiian islands. Despite its city status, Honolulu is an absolute launchpad for exploring Oahu and all the Hawaiian islands. If you are catching an international flight, chances are you’ll be at least catching a connection in Honolulu. And there are so many things to do in Honolulu that you should stay for at least a few days.
+        </p>
+        <a href="#main">
+            <button class="btn btn-outline-light btn-lg" type="button">Start Your Journey !</button>
+        </a>
+    </div>
+
+     <!-- this is all cards -->
+    <div class="niagara-cards" id="main">
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font size="8" style="font-weight: 700;">1. Go Snorkeling And Dolphin Watching From Honolulu</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>When envisioning visiting Hawaii, you are probably wondering whether there are dolphins in Honolulu. The answer is a resounding yes. In fact, going snorkeling and dolphin watching is one of the best things to do in Honolulu. Honolulu has a spinner, bottle-nose and rough-toothed dolphins along its shores. So, your chances of spotting dolphins on a tour are over 99%. Sky high. Many dolphin watching tours from Honolulu allow you to swim with the spectacular marine animals in their natural habitat. You grab snorkeling gear and an underwater camera and head out on a boat with an expert. Usually, you don’t have to go far. But going dolphin watching is a fabulous way to combine a once-in-a-lifetime activity with some general island sightseeing.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai1.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">2. Diamond Head State Monument</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Diamond Head State Monument is easily the most recognizable natural landmark in Honolulu. Diamond Head is a vast 475-acre site home to the colossal structure of the Diamond Head Crater. The volcano has been dormant for approximately 150,000 years, and many geologists believe it to be monogenetic. Monogenetic volcanoes usually only erupt once and Diamond Head has remained dormant ever since. Read more at 17 Best Hikes in Oahu Hawaii. Visiting Diamond Head State Monument is one of the best, most classic things to do in Honolulu. The best way to see it is to hike the Diamond Head Trail, which takes between 1.5 hours to complete. The stairs are steep, but you get stunning crater rim views. Or, if you are feeling really luxurious, you could book a helicopter tour for an aerial view – some Oahu helicopter tours even offer doors on or off experiences.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai2.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="Asset/Image/n1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n5.jpeg" class="d-block w-100 img-fluid" alt="...">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n2.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n7.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="Asset/Image/n8.jpeg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">3. Spend An Evening At The Paradise Cove Luau.</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Culture is a must when visiting Honolulu. And to embrace authentic Hawaiian culture, you can spend an evening at the Paradise Cove Luau. A luau is a traditional, festive Hawaiian feast with music and dancing. Luaus are celebratory in Hawaiian culture and have been used for centuries to celebrate things like weddings, birthdays, and even victories in battle.The Paradise Cove Luau is approximately 3-hours long and includes food and drink. The event is held at Ko Olina Resort, and guests can marvel at performances from fire and hula dancers. The atmosphere of celebration is totally infectious. And if you want a cultural way to spend an evening, visiting the Paradise Cove Luau is one of the best things to do in Honolulu.Enjoy a welcome Mai Tia and buffet dinner as you watch the sunset and entertainment. Luau includes hula dancers, fire twirlers, and Hawaiian musicians.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai3.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">4. Join A Circle Island Tour From Honolulu</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Circle island tours are one of the most popular things to do in Honolulu. They are a great idea if you only visit Oahu for a few days. A circle island tour runs from the Polynesian Cultural Center (more on that later). It takes visitors around the highlights of Oahu in a jam-packed full-day tour. Starting at 6:45 am, you won’t return to your hotel until the late evening. But honestly, the amount of Oahu attractions you tick off makes it worthwhile. Circle island tours include Diamond Head, Hanauma Bay Lookout, the Dole Plantation, Pali Lookout, North Shore beaches, and more. It gets its name simply because the tour completes a full circle of Oahu. Time-effective and exciting, a circle island tour from Honolulu is easily one of the best things to do if you are short on time. This highly rated 10-hour tour takes you on a journey to see all the top Honolulu attractions including Ame
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai4.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">5. Go Hiking At Manoa Falls</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <!-- <font class="pb-2 border-bottom" size="8" style="font-weight: 700;">Where Have I Been?</font> -->
+                    <p class="lead">
+                        <br>Manoa Falls is a stunning waterfall that drops a staggering 150 feet in a dramatic single drop. It is the sort of waterfall that influencers flock to pose in front of for pictures and is an absolute natural landmark to visit from Honolulu on a day trip. Manoa Falls Trail is the way to access the falls. The 1.6-mile Manoa Falls Trail takes approximately an hour to complete as a round-trip. It leads hikers through the aesthetic bamboo jungle and tropical scenery. While you can technically swim in Manoa Falls, we wouldn’t recommend it. As a word of warning, it does carry a threat of Leptospirosis, which can cause you flu-like symptoms for up to two weeks – not what you need for your trip. Stick to photographing the falls instead, and you’ll have a better time.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai5.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">6. Hanauma Bay Nature Preserve</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Hanauma Bay Nature Preserve is a beautiful park famous for its coral reefs and marine life. If you want a snorkeling spot with colorful and varied underwater scenery, Hanauma Bay is your best bet. You can see so many different types of tropical fish and plant life. And besides, the curved sands and bright green shape of the Hanauma Bay Ridge jutting up makes it one of the most aesthetic snorkeling spots you could ever choose.Hanauma Bay Nature Preserve is a beautiful place to visit from Honolulu. The best thing is that it is just a 20-minute drive from Honolulu city center, located on the city’s far east outskirts. The journey is an hour and 20 minutes by public transport but only involves a single bus – nice and convenient.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai6.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">7. Trek Along The Koko Crater Trail</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>The Koko Crater Trail is frequently named as one of the top things to do in Honolulu. Don’t be fooled; this trail is not for the faint-hearted. The route takes you up an abandoned railway track and takes around 30 minutes if you are fully fit. This crater trail is notoriously challenging but scenic and impressively uses thousands of railway ties to provide a ladder-like contraption to assist hikers to the top.It is not only the challenge and novelty of the hike that makes it worthwhile, though. The Koko Crater Summit is stunning, and you get beautiful views over Honolulu Harbor below.The trail is only a mile long, but the stairs can be challenging, depending on your fitness ability. Most hikers summit Koko Crater within 30 minutes, but descending the trail may take longer depending on fatigue.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai7.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">8. Marvel At The Halona Blowhole</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Halona Blowhole is really cool. Located on the far outskirts of Honolulu, it takes around 20 minutes to drive or approximately 2 hours by public transport. The blowhole is worth the journey, though, as it shoots water up to 30 feet into the air. The seawater is pushed through a lava tube at force, which channels it into a scenic cove at pressure – exploding impressively into the air. As far as natural attractions go, this one is enjoyable. You’ll find the Halona Blowhole Lookout next door to the blowhole site. We suggest heading here for the best views. Try to visit at high tide for the best, most impressive water explosions. And make sure to bring a camera and plenty of patience. Watching the blowhole is a lot like watching a geyser erupt. It isn’t always predictable when it will explode.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai8.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-3">
+            <div class="row featurette d-flex justify-content-center">
+                <font  size="8" style="font-weight: 700;">9. Nu’uanu Pali Lookout</font>
+                <hr width="70%" color="black">
+                <div class="col-md-7">
+                    <p class="lead">
+                        <br>Nu’uanu Pali Lookout is one of the most stunning lookouts in all of Oahu, if not Hawaii. You get views of the coastline, surrounding green mountains, and dizzying cliffs below from the fenced vantage point. It is also of important historical significance, marking the site of a legendary 1795 battle.A warrior named Kamehameha began an ambitious mission to take over all the Hawaiian islands in 1783. When the king of Oahu died in 1794, his two sons started a civil war for the crown. Kamehameha heard of the conflict and arrived in Oahu ready to take advantage of the monarchy’s weak position. A battle arose, and eventually, the Oahu warriors ended up in a compromised position – trapped between Kamehameha and his army and the cliffs by the Nu’uanu Pali Lookout. The skulls later found at the bottom of the cliffs show that over 800 warriors perished, falling to their deaths.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="Asset/Image/hawai9.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="paris.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="niagara.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="paris.html">2</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="atlantic.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="lasvegas.html">5</a></li>
+            <li class="page-item"><a class="page-link" href="rishikesh.html">6</a></li>
+            <li class="page-item">
+                <a class="page-link" href="atlantic.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- this is the footer section -->
+    <hr class="featurette-divider">
+    <footer class="container">
+        <center><p>Copyright <i class='bx bx-copyright'></i> 2023-2024 JetSetExplorer,Inc.</p></center>
+    </footer>
+
+    <script src="Asset/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
